@@ -322,7 +322,7 @@ M.set = function()
 		hl('@variable.member.fsharp', { fg = colors.orange_5, bold = true })
 		hl('@operator.fsharp', { fg = colors.orange_5, bold = true })
     hl('@variable.parameter.builtin.fsharp', { fg = colors.red_2, bold = false })
-		hl('@type.fsharp', { fg = "#5A6996", bold = true })
+		-- hl('@type.fsharp', { fg = "#5A6996", bold = true })
 end
 
 return M
