@@ -316,6 +316,9 @@ M.set = function()
     hl('NeogitDiffAddCursor', { fg = colors.teal_3, bg = colors.light_4 })
     hl('NeogitDiffContextCursor', { link = 'CursorLine' })
     hl('NeogitDiffDeleteCursor', { fg = colors.red_1, bg = colors.light_4 })
+		
+		-- fsharp f#
+		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
 end
 
 return M
