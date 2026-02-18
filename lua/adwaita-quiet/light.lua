@@ -326,6 +326,8 @@ M.set = function()
 		-- haskell hs
 		hl('@module.haskell', { fg = colors.orange_5, bold = true })
 		hl('@operator.haskell', { fg = colors.orange_5, bold = true })
+		-- kotlin kt / arrow kotlin arrow-kt
+		hl('@type.kotlin', { fg = colors.orange_5, bold = true })
 end
 
 return M
