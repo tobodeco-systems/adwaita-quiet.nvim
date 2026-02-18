@@ -328,6 +328,8 @@ M.set = function()
 		hl('@operator.haskell', { fg = colors.orange_5, bold = true })
 		-- kotlin kt / arrow kotlin arrow-kt
 		hl('@type.kotlin', { fg = colors.orange_5, bold = true })
+		hl('@constructor.kotlin', { fg = colors.orange_5, bold = true })
+		hl('@operator.kotlin', { fg = colors.orange_5, bold = true })
 end
 
 return M
