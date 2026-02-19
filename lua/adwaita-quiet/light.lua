@@ -332,7 +332,8 @@ M.set = function()
 		hl('@attribute.type.kotlin', { bold = true })
 		hl('@operator.kotlin', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.kotlin', { fg = colors.orange_5, bold = true })
-		hl('@function.builtin', { link = '@variable.builtin' })
+		hl('@function.builtin.kotlin', { link = '@variable.builtin' })
+		hl('@type.definition.kotlin', { fg = colors.black_3 })
 end
 
 return M
