@@ -334,6 +334,7 @@ M.set = function()
 		hl('@punctuation.delimiter.kotlin', { fg = colors.orange_5, bold = true })
 		hl('@function.builtin.kotlin', { link = '@variable.builtin' })
 		hl('@type.definition.kotlin', { fg = colors.black_3 })
+		hl('@namespace.kotlin', { fg = colors.orange_5, bold = true })
 end
 
 return M
