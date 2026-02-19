@@ -329,13 +329,9 @@ M.set = function()
 		-- kotlin kt / arrow kotlin arrow-kt
 		-- hl('@type.kotlin', { fg = colors.orange_5, bold = true })
 		-- hl('@constructor.kotlin', { fg = colors.orange_5, bold = true })
-		-- hl('@type.kotlin', { fg = colors.teal_5, bold = true })
-		-- hl('@constructor.kotlin', { fg = colors.teal_5, bold = true })
-		-- hl('@type.kotlin', { fg = colors.purple_3, bold = true })
-		-- hl('@constructor.kotlin', { fg = colors.purple_3, bold = true })
-    -- hl('@variable.builtin.kotlin', { fg = colors.orange_4, bold = false })
 		hl('@operator.kotlin', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.kotlin', { fg = colors.orange_5, bold = true })
+		hl('@function.builtin', { link = '@variable.builtin' })
 end
 
 return M
