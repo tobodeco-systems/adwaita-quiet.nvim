@@ -320,7 +320,7 @@ M.set = function()
 		
 		-- fsharp f#
 		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
-		hl('@variable.member.fsharp', { fg = colors.orange_5, bold = true })
+		-- hl('@variable.member.fsharp', { fg = colors.orange_5, bold = true })
 		hl('@operator.fsharp', { fg = colors.orange_5, bold = true })
     hl('@variable.parameter.builtin.fsharp', { fg = colors.red_2, bold = false })
 		-- hl('@type.definition.fsharp', { fg = "#5A6996", bold = true })
