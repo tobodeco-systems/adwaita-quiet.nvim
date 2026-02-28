@@ -325,6 +325,8 @@ M.set = function()
 		hl('@punctuation.bracket.ocaml', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.other.ocaml', { fg = colors.orange_5, bold = false })
 		hl('@property.ocaml', { link = 'Identifier' })
+		hl('@tag.ocaml', { fg = colors.black_3 })
+		hl('@tag.delimiter.ocaml', { fg = colors.black_3 })
 		-- hl('@variable.parameter.ocaml', { link = 'Identifier' })
 		-- fsharp f#
 		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
