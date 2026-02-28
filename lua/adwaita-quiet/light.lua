@@ -328,6 +328,7 @@ M.set = function()
 		hl('@tag.ocaml', { fg = colors.black_3 })
 		hl('@tag.delimiter.ocaml', { fg = colors.black_3 })
 		hl('@operator.ocaml', { fg = colors.black_3 })
+    hl('@constructor.ocaml', { fg = colors.violet_4 })
 		-- hl('@variable.parameter.ocaml', { link = 'Identifier' })
 		-- fsharp f#
 		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
