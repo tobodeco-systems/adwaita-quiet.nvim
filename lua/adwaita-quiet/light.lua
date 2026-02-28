@@ -319,8 +319,10 @@ M.set = function()
     hl('NeogitDiffDeleteCursor', { fg = colors.red_1, bg = colors.light_4 })
 		
 		-- ocaml ml
-		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
-		hl('@module.builtin.fsharp', { fg = colors.red_2, bold = true })
+		hl('@module.ocaml', { fg = colors.orange_5, bold = true })
+		hl('@punctuation.special.ocaml', { fg = colors.orange_5, bold = true })
+		hl('@punctuation.delimiter.ocaml', { fg = colors.orange_5, bold = true })
+		hl('@property.ocaml', { link = 'Identifier' })
 		-- fsharp f#
 		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
 		hl('@module.builtin.fsharp', { fg = colors.red_2, bold = true })
