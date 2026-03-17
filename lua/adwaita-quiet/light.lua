@@ -334,7 +334,7 @@ M.set = function()
 		-- hl('@variable.parameter.ocaml', { link = 'Identifier' })
 		-- fsharp f#
 		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
-		hl('@module.builtin.fsharp', { fg = colors.red_2, bold = true })
+		hl('@module.builtin.fsharp', { fg = colors.red_2, bold = false })
 		hl('@operator.fsharp', { fg = colors.orange_5, bold = true })
     hl('@variable.builtin.fsharp', { fg = colors.orange_4, bold = true })
     hl('@variable.parameter.builtin.fsharp', { bold = false })
