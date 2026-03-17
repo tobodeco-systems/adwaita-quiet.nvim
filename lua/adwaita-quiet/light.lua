@@ -338,6 +338,7 @@ M.set = function()
 		hl('@operator.fsharp', { fg = colors.orange_5, bold = true })
     hl('@variable.builtin.fsharp', { fg = colors.orange_4, bold = true })
     hl('@variable.parameter.builtin.fsharp', { fg = colors.orange_4, bold = true })
+		hl('@constant.macro.fsharp', { bold = false })
 		-- hl('@type.definition.fsharp', { fg = "#5A6996", bold = true })
 		-- haskell hs
 		hl('@module.haskell', { fg = colors.orange_5, bold = true })
