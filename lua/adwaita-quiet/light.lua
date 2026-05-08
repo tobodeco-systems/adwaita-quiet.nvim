@@ -356,13 +356,15 @@ M.set = function()
 		-- haskell hs
 		hl('@module.haskell', { fg = colors.orange_5, bold = true })
 		hl('@operator.haskell', { fg = colors.orange_5, bold = true })
-		-- (kotlin kt | arrow kotlin arrow.kt)
+		-- kotlin kt | arrow kotlin
 		-- hl('@type.kotlin', { fg = colors.orange_5, bold = true })
 		-- hl('@constructor.kotlin', { fg = colors.orange_5, bold = true })
 		hl('@operator.kotlin', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.kotlin', { fg = colors.orange_5, bold = true })
 		hl('@function.builtin.kotlin', { link = '@variable.builtin' })
 		hl('@namespace.kotlin', { fg = colors.orange_5, bold = true })
+		-- elixir
+		hl('@module.elixir', { fg = colors.orange_5, bold = true })
 end
 
 return M
