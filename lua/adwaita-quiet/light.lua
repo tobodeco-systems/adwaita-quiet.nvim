@@ -365,6 +365,8 @@ M.set = function()
 		hl('@namespace.kotlin', { fg = colors.orange_5, bold = true })
 		-- elixir
 		hl('@module.elixir', { fg = colors.orange_5, bold = true })
+		-- toml
+		hl('@module.toml', { fg = colors.orange_5, bold = true })
 end
 
 return M
