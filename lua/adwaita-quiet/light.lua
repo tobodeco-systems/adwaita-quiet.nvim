@@ -346,7 +346,7 @@ M.set = function()
     hl('@punctuation.parameter.property.ocaml_interface', { fg = colors.orange_5 })
 		hl('@function.builtin.ocaml_interface', { link = '@variable.builtin' })
 		-- reason
-		hl('@tag.delimiter.reason', { fg = colors.blue_5, bold = true })
+		hl('@lsp.type.function.reason', { fg = colors.blue_5, bold = true })
 		hl('@module.reason', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.special.reason', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.reason', { fg = colors.orange_5, bold = true })
