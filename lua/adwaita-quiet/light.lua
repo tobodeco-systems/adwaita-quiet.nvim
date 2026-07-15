@@ -356,7 +356,7 @@ M.set = function()
 		hl('@tag.delimiter.reason', { fg = colors.black_3 })
 		hl('@operator.reason', { fg = colors.black_3 })
     hl('@constructor.reason', { fg = colors.violet_4 })
-    hl('@punctuation.parameter.property.reason', { fg = colors.orange_5 })
+    hl('@label.reason', { fg = colors.orange_5 })
 		hl('@function.builtin.reason', { link = '@variable.builtin' })
 		-- fsharp f#
 		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
