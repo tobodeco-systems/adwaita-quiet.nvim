@@ -384,6 +384,12 @@ M.set = function()
 		-- latex
     hl('@function.latex', { fg = colors.orange_5 })
     hl('@module.latex', { fg = colors.orange_5, bold = true })
+		hl('@markup.heading.1.latex', { bold = true })
+		hl('@markup.heading.2.latex', { bold = true })
+		hl('@markup.heading.3.latex', { bold = true })
+		hl('@markup.heading.4.latex', { bold = true })
+		hl('@markup.heading.5.latex', { bold = true })
+		hl('@markup.heading.6.latex', { bold = true })
 end
 
 return M
