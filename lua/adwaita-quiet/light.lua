@@ -383,6 +383,7 @@ M.set = function()
 		hl('@module.toml', { fg = colors.orange_5, bold = true })
 		-- latex
     hl('@function.latex', { fg = colors.orange_5 })
+    hl('@module.latex', { fg = colors.orange_5, bold = true })
 end
 
 return M
