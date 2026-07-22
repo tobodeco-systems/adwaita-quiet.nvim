@@ -381,6 +381,8 @@ M.set = function()
 		hl('@module.elixir', { fg = colors.orange_5, bold = true })
 		-- toml
 		hl('@module.toml', { fg = colors.orange_5, bold = true })
+		-- latex
+    hl('@function.latex', { fg = colors.orange_5 })
 end
 
 return M
