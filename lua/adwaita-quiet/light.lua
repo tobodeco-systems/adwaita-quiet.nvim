@@ -185,6 +185,7 @@ M.set = function()
     hl('@tag', { fg = colors.teal_5 })
     hl('@tag.delimiter', { fg = colors.dark_3 })
     hl('@tag.attribute', { fg = colors.orange_4 })
+    hl('@module', { fg = colors.orange_5, bold = true })
 
     -- LSP semantic tokens
     hl('@lsp.type.class', { link = '@type' })
@@ -319,7 +320,6 @@ M.set = function()
     hl('NeogitDiffDeleteCursor', { fg = colors.red_1, bg = colors.light_4 })
 		
 		-- ocaml ml
-		hl('@module.ocaml', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.special.ocaml', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.ocaml', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.bracket.ocaml', { fg = colors.orange_5, bold = true })
@@ -333,7 +333,6 @@ M.set = function()
 		hl('@function.builtin.ocaml', { link = '@variable.builtin' })
 		-- hl('@variable.parameter.ocaml', { link = 'Identifier' })
 		-- ocaml_interface, derived from ocaml
-		hl('@module.ocaml_interface', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.special.ocaml_interface', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.ocaml_interface', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.bracket.ocaml_interface', { fg = colors.orange_5, bold = true })
@@ -347,7 +346,6 @@ M.set = function()
 		hl('@function.builtin.ocaml_interface', { link = '@variable.builtin' })
 		-- reason
 		-- hl('@lsp.type.function.reason', { fg = colors.blue_5 })
-		hl('@module.reason', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.special.reason', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.reason', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.bracket.reason', { fg = colors.orange_5, bold = true })
@@ -360,15 +358,12 @@ M.set = function()
     hl('@label.reason', { fg = colors.orange_5 })
 		hl('@function.builtin.reason', { link = '@variable.builtin' })
 		-- fsharp f#
-		hl('@module.fsharp', { fg = colors.orange_5, bold = true })
-		hl('@module.builtin.fsharp', { fg = colors.red_2, bold = false })
 		hl('@operator.fsharp', { fg = colors.orange_5, bold = true })
     hl('@variable.builtin.fsharp', { fg = colors.orange_4, bold = true })
     hl('@variable.parameter.builtin.fsharp', { bold = false })
 		hl('@constant.macro.fsharp', { bold = false })
 		-- hl('@type.definition.fsharp', { fg = "#5A6996", bold = true })
 		-- haskell hs
-		hl('@module.haskell', { fg = colors.orange_5, bold = true })
 		hl('@operator.haskell', { fg = colors.orange_5, bold = true })
 		-- kotlin kt | arrow kotlin
 		-- hl('@type.kotlin', { fg = colors.orange_5, bold = true })
@@ -378,12 +373,9 @@ M.set = function()
 		hl('@function.builtin.kotlin', { link = '@variable.builtin' })
 		hl('@namespace.kotlin', { fg = colors.orange_5, bold = true })
 		-- elixir
-		hl('@module.elixir', { fg = colors.orange_5, bold = true })
 		-- toml
-		hl('@module.toml', { fg = colors.orange_5, bold = true })
 		-- latex
     hl('@function.latex', { fg = colors.orange_5 })
-    hl('@module.latex', { fg = colors.orange_5, bold = true })
 		-- hl('@markup.heading.1.latex', { bold = true })
 		-- hl('@markup.heading.2.latex', { bold = true })
 		-- hl('@markup.heading.3.latex', { bold = true })
