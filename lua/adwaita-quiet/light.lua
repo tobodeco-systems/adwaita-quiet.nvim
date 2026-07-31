@@ -226,10 +226,6 @@ M.set = function()
     hl('@textReference', { fg = colors.orange_2 })
     hl('@stringEscape', { fg = colors.orange_2, bold = true })
 
-    -- Zig 
-    hl('@function.call.zig', { fg = colors.chameleon_3 })
-
-
     hl('htmlTag', { fg = colors.teal_5 })
     hl('htmlEndTag', { fg = colors.teal_5 })
     hl('htmlTagName', { fg = colors.teal_5 })
@@ -382,6 +378,22 @@ M.set = function()
 		-- hl('@markup.heading.4.latex', { bold = true })
 		-- hl('@markup.heading.5.latex', { bold = true })
 		-- hl('@markup.heading.6.latex', { bold = true })
+
+    -- zig 
+    hl('@function.call.zig', { fg = colors.chameleon_3 })
+
+		-- skel
+		hl('@punctuation.special.skel', { fg = colors.orange_5, bold = true })
+		hl('@punctuation.delimiter.skel', { fg = colors.orange_5, bold = true })
+		hl('@punctuation.bracket.skel', { fg = colors.orange_5, bold = true })
+		hl('@punctuation.other.skel', { fg = colors.orange_5, bold = false })
+		hl('@parameter.property.skel', { link = 'Identifier' })
+		hl('@tag.skel', { fg = colors.black_3 })
+		hl('@tag.delimiter.skel', { fg = colors.black_3 })
+		hl('@operator.skel', { fg = colors.black_3 })
+    hl('@constructor.skel', { fg = colors.violet_4 })
+    hl('@punctuation.parameter.property.skel', { fg = colors.orange_5 })
+		hl('@function.builtin.skel', { link = '@variable.builtin' })
 end
 
 return M
