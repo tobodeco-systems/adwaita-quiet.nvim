@@ -342,6 +342,7 @@ M.set = function()
 		hl('@function.builtin.ocaml_interface', { link = '@variable.builtin' })
 		-- reason
 		-- hl('@lsp.type.function.reason', { fg = colors.blue_5 })
+		hl('@attribute.reason', { fg = colors.black_3 })
 		hl('@punctuation.special.reason', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.delimiter.reason', { fg = colors.orange_5, bold = true })
 		hl('@punctuation.bracket.reason', { fg = colors.orange_5, bold = true })
