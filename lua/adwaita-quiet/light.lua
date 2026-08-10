@@ -397,6 +397,13 @@ M.set = function()
     hl('@constructor.skel', { fg = colors.violet_4 })
     hl('@punctuation.parameter.property.skel', { fg = colors.orange_5 })
 		hl('@function.builtin.skel', { link = '@variable.builtin' })
+		-- section:typst
+    hl('@markup.heading.1.typst', { bold = true })
+    hl('@markup.heading.2.typst', { bold = true })
+		-- section:ocamldoc ocamldoc_inline
+    hl('@markup.heading.1.ocamldoc_inline', { bold = true })
+    hl('@markup.heading.2.ocamldoc_inline', { bold = true })
+
 end
 
 return M
