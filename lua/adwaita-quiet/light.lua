@@ -409,6 +409,8 @@ M.set = function()
     hl('@markup.heading.3.latex', { bold = true })
     hl('@markup.heading.4.latex', { bold = true })
     hl('@module.latex', { link = 'Keyword' })
+    hl('@punctuation.special.latex', { link = 'Keyword' })
+    hl('@function.latex', { link = 'Keyword' })
 end
 
 return M
