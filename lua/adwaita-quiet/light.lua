@@ -401,6 +401,7 @@ M.set = function()
     hl('@markup.heading.1.typst', { bold = true })
     hl('@markup.heading.2.typst', { bold = true })
 		-- section:ocamldoc ocamldoc_inline
+    hl('@markup.heading.0.ocamldoc_inline', { link = 'Keyword' })
     hl('@markup.heading.1.ocamldoc_inline', { bold = true })
     hl('@markup.heading.2.ocamldoc_inline', { bold = true })
 		-- section:latex
