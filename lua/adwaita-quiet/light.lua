@@ -412,6 +412,8 @@ M.set = function()
     hl('@module.latex', { link = 'Keyword' })
     hl('@punctuation.special.latex', { link = 'Keyword' })
     hl('@function.latex', { link = 'Keyword' })
+		-- section:python
+		hl('@function.method.call.python', { link = '@variable.python' })
 end
 
 return M
