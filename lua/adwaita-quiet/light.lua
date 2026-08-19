@@ -416,6 +416,7 @@ M.set = function()
 		hl('@function.method.call.python', { link = '@variable.python' })
 		hl('@punctuation.bracket.python', { link = 'Keyword' })
 		hl('@punctuation.delimiter.python', { link = 'Keyword' })
+		hl('@punctuation.parameter.property.python', { link = 'Keyword' })
 		hl('@attribute.python', { link = '@variable.python' })
 end
 
