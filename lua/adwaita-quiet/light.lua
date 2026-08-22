@@ -419,6 +419,7 @@ M.set = function()
 		hl('@punctuation.parameter.property.python', { fg = colors.orange_4 })
 		hl('@attribute.python', { link = '@variable.python' })
 		hl('@constant.builtin.python', { link = 'Identifier' })
+		hl('@keyword.operator.python', { link = 'Identifier' })
 end
 
 return M
