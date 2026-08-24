@@ -398,6 +398,7 @@ M.set = function()
     hl('@punctuation.parameter.property.skel', { fg = colors.orange_5 })
 		hl('@function.builtin.skel', { link = '@variable.builtin' })
 		-- section:typst
+		hl('@punctuation.special.typst', { fg = colors.orange_5, bold = true })
     hl('@markup.heading.1.typst', { bold = true })
     hl('@markup.heading.2.typst', { bold = true })
 		-- section:ocamldoc ocamldoc_inline
